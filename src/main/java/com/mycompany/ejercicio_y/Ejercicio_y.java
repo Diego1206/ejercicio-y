@@ -14,16 +14,23 @@ public class Ejercicio_y {
 
     
  private static String[][] preguntasRespuestas = {
-            {"¿Cuál es la capital de Francia?", "París"},
+            {"¿Cuál es la capital de Francia?", "Paris"},
             {"¿En qué año fue la independencia de Estados Unidos?", "1776"},
-            {"¿Cuál es el color del cielo en un día despejado?", "Azul"}
-            // Agrega más preguntas según sea necesario
+            {"¿Cuál es el color del cielo en un día despejado?", "Azul"},
+            {"¿Cuál es el mejor equipo del mundo?", "Sevilla FC"},
+            {"¿Cuál es el maximo ganador de la Champions?", "Real Madrid"},
+            {"¿Cuántas Guerras Mundiales a vivido la Reina Isabel II?", "2"},
+            {"¿Cuál es la mejor seleccion de fútbol del mundo?", "Brasil"},
+            {"¿Quién descubrió America?", "Cristobal Colón"},
+            {"¿En qué año sucedio el descubrimiento de America?", "1492"},
+            {"¿Cuántos Balones de Oro tiene Lionel Andrés Messi?", "7"}
     };
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("¡Bienvenido al Juego de Preguntas y Respuestas!");
+        System.out.println("Las Respuestas deben de contener tildes si la palabra la lleva!");
 
         int puntajeTotal = 0;
 
